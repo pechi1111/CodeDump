@@ -1,4 +1,4 @@
 Add-Type -AssemblyName System.speech
-$HeyDylan = New-Object System.Speech.Synthesis.SpeechSynthesizer
-$HeyDylan.Speak("I WANT A BEER!. STEVEN, GIVE ME A BEER!")
-$HeyDylan.Dispose()
+$Hey = New-Object System.Speech.Synthesis.SpeechSynthesizer
+$Hey.Speak("I WANT A BEER!. Marc, GIVE ME A BEER!")
+$Hey.Dispose()
